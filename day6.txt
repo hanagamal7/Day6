@@ -1,0 +1,20 @@
+
+Questions with Answers:
+Why can't a struct inherit from another struct or class in C#?
+In C#, structs are value types and are designed to be lightweight. They do not support inheritance because inheritance is a feature of reference types that adds complexity and overhead unsuitable for value types.
+
+How do access modifiers impact the scope and visibility of a class member?
+Access modifiers determine the visibility of class members:
+Private: Accessible only within the class.
+Internal: Accessible within the same assembly.
+Public: Accessible from any code.
+
+Why is encapsulation critical in software design?
+Encapsulation promotes modularity, maintains data integrity by restricting direct access to fields, and simplifies maintenance by controlling access through methods or properties.
+
+What are constructors in structs?
+Constructors in structs are special methods used to initialize the struct's fields. Unlike classes, structs cannot have a parameterless default constructor defined by the user, though the compiler provides one.
+
+
+How does overriding methods like ToString() improve code readability?
+Overriding ToString() provides a meaningful and human-readable representation of an object, which enhances debugging and logging.
